@@ -1,8 +1,18 @@
+/* CSS RESET */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* GLOBAL STYLES */
 
 body {
   font-family: Helvetica, sans-serif;
@@ -17,8 +27,4 @@ h4 {
 
 p {
   padding-bottom: 0.25rem;
-}
-
-img {
-  max-width: 100%;
 }
