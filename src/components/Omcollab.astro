@@ -1,0 +1,90 @@
+---
+const { data } = Astro.props;
+---
+
+<div class="gridomcollab">
+
+    <div>
+  <img src="/src/assets/image57.png" alt="57">
+  </div>
+  
+  <div class="overskriftogtekst">
+    <h2>TO ØL X BAREEN</h2>
+  <p>Vi er enormt glade for at kunne løfte sløret for vores nyeste samarbejde – denne gang med de gode folk hos TO ØL. Sammen har vi skabt noget helt særligt, der hylder både godt håndværk og god smag.</p>
+  </div>  
+
+
+
+  
+  <div class="overskriftogtekst1">
+    <h2>LIMITED EDITION T-SHIRT</h2>
+  <p>Resultatet er en limited edition t-shirt, der kombinerer TO ØLs legesyge univers med bareens enkle, ærlige design. Den er lavet med samme fokus som altid: Kvalitet, ansvarlighed og en ambition om at gøre en forskel – ikke bare i din garderobe, men i verden omkring os.</p>
+  </div>
+  
+  <div>
+  <img src="/src/assets/Bareenmockup1.png" alt="Bareen">
+  </div>
+
+
+
+  
+  <div>
+  <img src="/src/assets/image50.png" alt="50">
+  </div>
+  
+  <div class="overskriftogtekst">
+<h2>TO ØL ER FOR ALLE</h2>
+  <p>Uanset om du er en passioneret ølentusiast eller bare nyder en god drink i godt selskab. Med et stilrent design og kvalitetsmaterialer sikrer vi, at du kan bære den med stolthed, uanset hvor din rejse tager dig. Tag del i fællesskabet, og vis din støtte til kreativitet og samarbejde!</p>
+  </div>
+  
+
+
+  
+  </div>
+
+<style>
+    @media (max-width: 700px) {
+        .overskriftogtekst{
+            margin-top: -1rem;
+   margin-bottom: 6rem;
+}
+.overskriftogtekst1{
+    margin-top: -1rem;
+    margin-bottom: 6rem;
+}
+}
+    h2{
+    text-align: center;
+}
+
+.overskriftogtekst{
+    align-self: center;
+}
+.overskriftogtekst1{
+    align-self: center;
+}
+    .gridomcollab{
+        display: grid;
+        margin: 3rem;
+    gap: 40px;
+    }
+    .overskriftogtekst1{
+    grid-row: 4/5;
+}
+
+    @media (min-width: 700px) {
+    .gridomcollab{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+    gap: 40px;
+    row-gap: 130px
+}
+.overskriftogtekst1{
+    grid-row: 2/3;
+}
+}
+
+
+</style>
+
