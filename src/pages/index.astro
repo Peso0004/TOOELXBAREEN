@@ -12,13 +12,11 @@ const options = {
     apikey: key,
   },
 };
-
 const request = await fetch(url, options);
 const data = await request.json();
 
 console.log("data", data);
 ---
-
 <Layout title="home">
   <Header title="Welcome Home">
     <img src="/src/assets/Group9.png" alt="Group9.png">
